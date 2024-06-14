@@ -1,0 +1,17 @@
+[
+    {
+        "name" : "meekail",
+        "age" : 18,
+        "city" : "jodhpur"
+    },
+    {
+        "name" : "mujaahid",
+        "age" : 25,
+        "city" : "jodhpur"
+    },
+    {
+        "name" : "arbaaz",
+        "age" : 17,
+        "city" : "jodhpur"
+    }
+]
