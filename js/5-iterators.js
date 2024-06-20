@@ -9,11 +9,11 @@ function createFunction(arr){
     return inner
 }
 let nextElement = createFunction([1,2,3,4,5,6])
-// console.log(nextElement()) // 1
-// console.log(nextElement()) // 2
-// console.log(nextElement()) // 3
-// console.log(nextElement()) // 4
-// console.log(nextElement()) // 5
+console.log(nextElement()) // 1
+console.log(nextElement()) // 2
+console.log(nextElement()) // 3
+console.log(nextElement()) // 4
+console.log(nextElement()) // 5
 // console.log(nextElement()) // 6
 const element1 = nextElement() // 1
 const element2 = nextElement() // 2
