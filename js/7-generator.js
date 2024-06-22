@@ -17,16 +17,28 @@
 // console.log(returnFunction.next())
 // console.log(returnFunction.next())
 // console.log(returnFunction.next())
-function *createFlow(){
-    yield 3
-    yield 4
-    yield 5
-    yield 6
+// function *createFlow(){
+//     yield 3
+//     yield 4
+//     yield 5
+//     yield 6
 
+// }
+// let returnNext = createFlow()
+// returnNext.next()
+// console.log(returnNext.next())
+// console.log(returnNext.next())
+// console.log(returnNext.next())
+// console.log(returnNext.next())
+
+function *createFlow(){
+    const num = 10;
+    const newNum = yield num;
+    yield 5 + newNum;
+    yield 6
 }
-let returnNext = createFlow()
-returnNext.next()
+
+const returnNext = createFlow()
 console.log(returnNext.next())
-console.log(returnNext.next())
-console.log(returnNext.next())
-console.log(returnNext.next())
+console.log(returnNext.next(10))
+
