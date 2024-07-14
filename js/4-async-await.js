@@ -9,10 +9,6 @@
 // console.log('five')
 
 async function test(){
-    // let data = await fetch("json/student_data.json");
-    // let response = await data.json()
-
-    // return response
     return (await fetch("json/student_data.json")).json()
 }
 test().then((response)=>{
