@@ -9,3 +9,4 @@ async function studentData(){
 studentData()
 
 console.log("me second")
+
